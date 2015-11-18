@@ -15,6 +15,6 @@
 
 - (id)initWithSettings:(NSDictionary *)settings;
 + (void)showSurveyInViewController:(UIViewController *)viewController;
-+ (SEGWootric *)wootricInstance;
++ (SEGWootric *)wootric;
 
 @end
