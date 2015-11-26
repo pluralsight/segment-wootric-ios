@@ -28,12 +28,6 @@ WTRWootricIntegrationFactory *wootricFactory = [WTRWootricIntegrationFactory ins
 [SEGAnalytics setupWithConfiguration:config];
 ```
 
-As the initialization is done asynchronously, Wootric will post a notification to default notification center when ready, you can add an observer for that event:
-
-```objectivec
-[[NSNotificationCenter defaultCenter] addObserver:<OBSERVER> selector:<SELECTOR> name:@"com.wootric.integration.ready" object:<OBJECT>];
-```
-
 Wootric integration responds to ```identify``` call, to read more about it, visit [Segment identify method documentation](https://segment.com/docs/libraries/ios/#identify).
 In identify call ```traits``` dictionary is set as ```endUserProperties``` in WootricSDK,  except keys ```email``` and ```createdAt``` which are set as ```endUserEmail``` and ```endUserCreatedAt``` respectively.
 

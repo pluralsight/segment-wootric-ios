@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "Segment-Wootric"
   s.module_name      = "SegmentWootric"
-  s.version          = "0.1.4"
+  s.version          = "0.1.5"
   s.summary          = "Wootric integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
