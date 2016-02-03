@@ -6,8 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WTRWootricIntegration.h"
-#import "WTRWootricIntegrationFactory.h"
 
 FOUNDATION_EXPORT double Segment_WootricVersionNumber;
 FOUNDATION_EXPORT const unsigned char Segment_WootricVersionString[];

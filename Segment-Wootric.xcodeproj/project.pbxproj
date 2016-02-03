@@ -7,27 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D4DE0EA1C62AE89001961F4 /* WTRWootricIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4DE0E91C62AE89001961F4 /* WTRWootricIntegration.swift */; };
+		1D4DE0EC1C62B159001961F4 /* WTRWootricUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4DE0EB1C62B159001961F4 /* WTRWootricUtils.swift */; };
+		1D4DE0F01C62B330001961F4 /* WTRWootricIntegrationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4DE0EF1C62B330001961F4 /* WTRWootricIntegrationFactory.swift */; };
 		73243FF63F358326CB8020EE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69B14FDFDEB2B6D40A6FC26 /* Pods.framework */; };
-		B21372AF1BF49A2E009F5974 /* WTRWootricIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = B21372AD1BF49A2E009F5974 /* WTRWootricIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B21372B01BF49A2E009F5974 /* WTRWootricIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B21372AE1BF49A2E009F5974 /* WTRWootricIntegrationFactory.m */; };
-		B21372B31BF49A8F009F5974 /* WTRWootricIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = B21372B11BF49A8F009F5974 /* WTRWootricIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B21372B41BF49A8F009F5974 /* WTRWootricIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = B21372B21BF49A8F009F5974 /* WTRWootricIntegration.m */; };
-		B21372C21BF5F371009F5974 /* WTRWootricUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B21372C01BF5F371009F5974 /* WTRWootricUtils.h */; };
-		B21372C31BF5F371009F5974 /* WTRWootricUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B21372C11BF5F371009F5974 /* WTRWootricUtils.m */; };
 		B2D5B3111BFB343700E60853 /* SegmentWootric.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D5B3101BFB343700E60853 /* SegmentWootric.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D4DE0E91C62AE89001961F4 /* WTRWootricIntegration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTRWootricIntegration.swift; sourceTree = "<group>"; };
+		1D4DE0EB1C62B159001961F4 /* WTRWootricUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTRWootricUtils.swift; sourceTree = "<group>"; };
+		1D4DE0EF1C62B330001961F4 /* WTRWootricIntegrationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTRWootricIntegrationFactory.swift; sourceTree = "<group>"; };
 		2514AE8D0D075146572C2A85 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A5C7A45FCA8995055157F84A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B21372A11BF0D150009F5974 /* SegmentWootric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SegmentWootric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B21372AD1BF49A2E009F5974 /* WTRWootricIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTRWootricIntegrationFactory.h; sourceTree = "<group>"; };
-		B21372AE1BF49A2E009F5974 /* WTRWootricIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTRWootricIntegrationFactory.m; sourceTree = "<group>"; };
-		B21372B11BF49A8F009F5974 /* WTRWootricIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTRWootricIntegration.h; sourceTree = "<group>"; };
-		B21372B21BF49A8F009F5974 /* WTRWootricIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTRWootricIntegration.m; sourceTree = "<group>"; };
 		B21372B71BF4E0E6009F5974 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B21372C01BF5F371009F5974 /* WTRWootricUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTRWootricUtils.h; sourceTree = "<group>"; };
-		B21372C11BF5F371009F5974 /* WTRWootricUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTRWootricUtils.m; sourceTree = "<group>"; };
 		B2D5B3101BFB343700E60853 /* SegmentWootric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentWootric.h; sourceTree = "<group>"; };
 		D69B14FDFDEB2B6D40A6FC26 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,12 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				B2D5B3101BFB343700E60853 /* SegmentWootric.h */,
-				B21372B11BF49A8F009F5974 /* WTRWootricIntegration.h */,
-				B21372B21BF49A8F009F5974 /* WTRWootricIntegration.m */,
-				B21372AD1BF49A2E009F5974 /* WTRWootricIntegrationFactory.h */,
-				B21372AE1BF49A2E009F5974 /* WTRWootricIntegrationFactory.m */,
-				B21372C01BF5F371009F5974 /* WTRWootricUtils.h */,
-				B21372C11BF5F371009F5974 /* WTRWootricUtils.m */,
+				1D4DE0E91C62AE89001961F4 /* WTRWootricIntegration.swift */,
+				1D4DE0EF1C62B330001961F4 /* WTRWootricIntegrationFactory.swift */,
+				1D4DE0EB1C62B159001961F4 /* WTRWootricUtils.swift */,
 				B21372B61BF4E0B8009F5974 /* Support Files */,
 			);
 			path = "Segment-Wootric";
@@ -109,10 +100,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B21372C21BF5F371009F5974 /* WTRWootricUtils.h in Headers */,
 				B2D5B3111BFB343700E60853 /* SegmentWootric.h in Headers */,
-				B21372AF1BF49A2E009F5974 /* WTRWootricIntegrationFactory.h in Headers */,
-				B21372B31BF49A8F009F5974 /* WTRWootricIntegration.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +133,7 @@
 		B21372981BF0D150009F5974 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Wootric;
 				TargetAttributes = {
@@ -218,9 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B21372B41BF49A8F009F5974 /* WTRWootricIntegration.m in Sources */,
-				B21372B01BF49A2E009F5974 /* WTRWootricIntegrationFactory.m in Sources */,
-				B21372C31BF5F371009F5974 /* WTRWootricUtils.m in Sources */,
+				1D4DE0F01C62B330001961F4 /* WTRWootricIntegrationFactory.swift in Sources */,
+				1D4DE0EA1C62AE89001961F4 /* WTRWootricIntegration.swift in Sources */,
+				1D4DE0EC1C62B159001961F4 /* WTRWootricUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +311,7 @@
 			baseConfigurationReference = 2514AE8D0D075146572C2A85 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -333,6 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wootric.Segment-Wootric";
 				PRODUCT_NAME = SegmentWootric;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -341,6 +332,7 @@
 			baseConfigurationReference = A5C7A45FCA8995055157F84A /* Pods.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
