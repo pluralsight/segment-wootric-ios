@@ -25,7 +25,7 @@
 - (void)identify:(SEGIdentifyPayload *)payload {
   NSString *email = payload.traits[@"email"];
   NSString *dateString = payload.traits[@"createdAt"];
-  NSMutableDictionary *endUserProperties = [payload.traits copy];
+  NSMutableDictionary *endUserProperties = [payload.traits mutableCopy];
   NSNumber *timestamp = [WTRWootricUtils timestampFromCreatedAt:dateString];
 
   [endUserProperties removeObjectsForKeys:@[@"email", @"createdAt"]];
