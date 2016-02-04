@@ -16,10 +16,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Segment-Wootric/*.{h,m}'
-  s.public_header_files = 'Segment-Wootric/SegmentWootric.h',
-                          'Segment-Wootric/WTRWootricIntegration.h',
-                          'Segment-Wootric/WTRWootricIntegrationFactory.h'
+  s.source_files = 'Segment-Wootric/*.{h,m,swift}'
+  s.public_header_files = 'Segment-Wootric/SegmentWootric.h'
 
   s.dependency 'Analytics', '~> 3.0.1-alpha'
   s.dependency 'WootricSDK'
