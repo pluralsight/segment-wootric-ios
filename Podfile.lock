@@ -7,10 +7,18 @@ PODS:
 
 DEPENDENCIES:
   - Segment-Wootric (from `./`)
+  - WootricSDK (from `https://github.com/pluralsight/WootricSDK-iOS.git`)
 
 EXTERNAL SOURCES:
   Segment-Wootric:
     :path: ./
+  WootricSDK:
+    :git: https://github.com/pluralsight/WootricSDK-iOS.git
+
+CHECKOUT OPTIONS:
+  WootricSDK:
+    :commit: 8621de02d237c867c288d20cc13e6f74cddb9b6d
+    :git: https://github.com/pluralsight/WootricSDK-iOS.git
 
 SPEC CHECKSUMS:
   Analytics: b342fb4f43fa4f97ca6f4358b44d3295217ba294
