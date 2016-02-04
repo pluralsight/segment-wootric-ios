@@ -14,7 +14,7 @@ public class WTRWootricIntegration: NSObject, SEGIntegration {
     
     public typealias Settings = [String: String]
     
-    static func showSurvey(inViewController viewController: UIViewController) {
+    public static func showSurvey(inViewController viewController: UIViewController) {
         Wootric.showSurveyInViewController(viewController)
     }
     
